@@ -1,0 +1,29 @@
+.CodeMirror pre {
+    font-family: Menlo, Monaco, 'Courier New', monospace !important;
+    font-size: 10pt !important;
+}
+
+div#maintoolbar {
+    /* display: none !important; */
+}
+
+hr {
+    border: 1px solid black !important;
+}
+
+h1 {
+    /* border: 2px solid orange !important; */
+    line-height: em !important;
+    /* background-color: pink !important; */
+
+    /* background-color: #7f5a83; */
+    /* background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%); */
+
+    /* background-color: #f5f7fa; */
+    /* background-image: linear-gradient(315deg, #f5f7fa 0%, #b8c6db 74%); */
+
+    /* padding: 10px; */
+    /* text-shadow: 1px 2px #888888; */
+    /* margin-left: -10px !important; */
+    color: #F37726;
+}

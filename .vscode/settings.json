@@ -1,0 +1,7 @@
+{
+    "files.exclude": {
+        "**/.cache": true,
+        "**/.ipynb_checkpoints": true,
+        "**/.local": true
+    }
+}

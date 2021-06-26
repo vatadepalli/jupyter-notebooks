@@ -1,9 +1,13 @@
 version: "3"
 services:
     datascience-notebook:
-        image: jupyter/datascience-notebook
+        # image: jupyter/datascience-notebook
+        build: .
+        stdin_open: true # docker run -i
+        tty: true # docker run -t
         volumes:
             - .:/home/jovyan
         ports:
             - 8888:8888
         container_name: datascience-notebook-container
+# docker exec -it datascience-notebook-container /bin/bash

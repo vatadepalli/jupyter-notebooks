@@ -1,0 +1,14 @@
+{
+  "Notebook": {
+    "Toolbar": true
+  },
+  "Cell": {
+    "cm_config": {
+      "lineNumbers": true
+    }
+  },
+  "load_extensions": {
+    "hinterland/hinterland": true,
+    "zenmode/main": false
+  }
+}
