@@ -1,0 +1,6 @@
+**/.local
+**/.ipynb_checkpoints
+**/.cache
+**/.DS_Store
+**/.vscode
+data
