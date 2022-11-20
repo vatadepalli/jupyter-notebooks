@@ -12,4 +12,6 @@ services:
         container_name: datascience-notebook-container
         environment:
             - JUPYTER_TOKEN=lab
-# docker exec -it datascience-notebook-container /bin/bash
+
+# To terminal into the container
+#       docker exec -it datascience-notebook-container /bin/bash
